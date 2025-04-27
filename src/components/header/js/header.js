@@ -27,7 +27,7 @@ const Header = ({ heading, description, showComma = true }) => {
 
   return (
     <>
-      <header className="relative flex flex-col items-center justify-center min-h-screen p-6 bg-gradient-to-r from-blue-900 to-blue-500 text-white overflow-hidden">
+     <header className="relative flex flex-col items-center justify-center min-h-[46vh] p-6 bg-gradient-to-r from-blue-900 to-blue-500 text-white overflow-hidden">
         <ParticleAnimation />
 
         <div className="absolute top-6 left-6 lg:hidden z-50">
